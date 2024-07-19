@@ -1,10 +1,9 @@
 Iris
 ====
 
-`Iris <https://scitools-iris.readthedocs.io/en/latest/>`_ implementiert ein
-Datenmodell basierend auf `Climate and Forecast (CF) Conventions
-<http://cfconventions.org/>`_, wobei die Visualisierung auf
-:doc:`index` und :doc:`cartopy/index` basiert.
+`Iris <https://scitools-iris.readthedocs.io/en/latest/>`_ implements a data model
+based on `Climate and Forecast (CF) conventions <http://cfconventions.org/>`_,
+with visualisation based on :doc:`index` and :doc:`cartopy/index`.
 
 .. seealso::
    - `User guide

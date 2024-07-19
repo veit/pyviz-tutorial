@@ -1,23 +1,23 @@
-Cartopy-Installation
+Cartopy installation
 ====================
 
 .. tab:: Spack
 
-   Mit :doc:`python4datascience:productive/envs/spack/index` könnt ihr Cartopy
-   in eurem Kernel bereitstellen, :abbr:`z.B. (zum Beispiel)` mit:
+   With :doc:`python4datascience:productive/envs/spack/index` you can deploy
+   Cartopy in your kernel, for example with:
 
    .. code-block:: console
 
        $ spack env activate python-311
        $ spack install py-cartopy~epsg~ows~plotting
 
-   Dies installiert Cartopy mit Unterstützung von:
+   This installs Cartopy with the support of:
 
    * `epsg <https://epsg.io>`_
    * `Open Geospatial Consortium (OGC) <https://www.ogc.org>`_
-   * Plot-Funktionalität
+   * Plot functionality
 
-   Zusätzlich werden folgende Pakete mitinstalliert:
+   The following packages are also installed:
 
    * `gdal <https://gdal.org/>`_
    * :doc:`/matplotlib/index`
@@ -30,8 +30,8 @@ Cartopy-Installation
 
 .. tab:: Linux
 
-   Cartopy kann alternativ auch mit Linux-Paketmanagern installiert werden,
-   :abbr:`z.B. (zum Beispiel)` für  Debian≥9 (Stretch) mit:
+   Alternatively, Cartopy can also be installed with Linux package managers, for
+   example for Debian≥9 (Stretch) with:
 
    .. code-block:: console
 
@@ -46,41 +46,40 @@ Cartopy-Installation
        $ brew install proj
        $ brew install geos
 
-Anschließend kann Cartopy für euren Kernel installiert werden, :abbr:`z.B. (zum
-Beispiel)` mit:
+Cartopy can then be installed for your kernel, for example with:
 
 .. code-block:: console
 
     $ export PIP_NO_BINARY=:shapely:
     $ pipenv install cython numpy cartopy
 
-Für die :doc:`examples` benötigt ihr dann zusätzlich die folgenden beiden
-Python-Pakete:
+For the Cartopy :doc:`examples`, you will also need the following two Python
+packages:
 
 .. code-block:: console
 
     $ pipenv install matplotlib scipy
 
-Optionale Anforderungen
------------------------
+Optional requirements
+---------------------
 
-* `rtree <https://github.com/Toblerity/rtree>`_ für `libspatialindex
+* `rtree <https://github.com/Toblerity/rtree>`_ for `libspatialindex
   <https://github.com/libspatialindex/libspatialindex>`_
-* `psycopg2 <https://pypi.org/project/psycopg2/>`_ für `PostGIS
+* `psycopg2 <https://pypi.org/project/psycopg2/>`_ for `PostGIS
   <https://postgis.net/>`_
 * `geopy <https://github.com/geopy/geopy>`_
 
-Anforderungen zum Plotten
--------------------------
+Plotting requirements
+---------------------
 
 * :doc:`/matplotlib/index`
 * `descartes <https://pypi.org/project/descartes/>`_
 * `mapclassify <https://pysal.org/mapclassify/>`_
 
-Überprüfen
-----------
+Verify
+------
 
-Schließlich könnt ihr die Installation überprüfen mit:
+Finally, you can check the installation with:
 
 .. code-block:: pycon
 

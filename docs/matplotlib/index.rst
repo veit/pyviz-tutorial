@@ -1,21 +1,21 @@
 Matplotlib
 ==========
 
-`Matplotlib <https://matplotlib.org/>`_ ist eine 2D-Plot-Bibliothek, die in
-Python-Skripten, iPython-Shells und Jupyter-Notebooks verwendet werden kann.
-Mit ihr lassen sich Daten als Diagramme, Histogramme, Leistungsspektren,
-Balkendiagramme, Streudiagramme etc. visualisieren. Einen Überblick erhaltet ihr
-in `Gallery <https://matplotlib.org/stable/gallery/index.html>`_. Es ist eine
-Low-Level-Bibliothek mit einem Matlab ähnlichen Schnittstelle, die zwar
-einerseits viele Freiheiten bietet, andererseits jedoch viel Code erfordert.
+`Matplotlib <https://matplotlib.org/>`_ is a 2D plotting library that can be
+used in Python scripts, iPython shells and Jupyter notebooks. It can be used to
+visualise data as diagrams, histograms, power spectra, bar charts, scatter
+plots, :samp:`etc. (et cetera)` You can get an overview in `Gallery
+<https://matplotlib.org/stable/gallery/index.html>`_. It is a low-level library
+with a Matlab-like interface that offers a lot of freedom but requires a lot of
+code.
 
 +---------------------------------------+---------------------------------------+
 | Pros                                  | Cons                                  |
 +=======================================+=======================================+
-| Ähnliches Design wie Matlab; der      | Imperative API und häufig sind sehr   |
-| Wechsel ist einfach                   | ausführliche Angaben nötig            |
+| Similar design to Matlab; switching   | Imperative API and often very         |
+| is easy                               | detailed specifications are required  |
 +---------------------------------------+---------------------------------------+
-| Viele Rendering-Backends, siehe       | Häufig ungenügende Standarddarstellung|
+| Many rendering backends, see          | Often inadequate standard display     |
 | :doc:`mpl-backends`                   |                                       |
 +---------------------------------------+---------------------------------------+
 

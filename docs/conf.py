@@ -62,7 +62,7 @@ master_doc = "index"
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = "de"
+language = "en"
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -135,8 +135,8 @@ nbsphinx_allow_errors = True
 # -- intersphinx configuration -----------------------------------------------
 
 intersphinx_mapping = {
-    "jupyter-tutorial": ("https://jupyter-tutorial.readthedocs.io/de/latest/", None),
-    "python4datascience": ("https://python4data.science/de/latest/", None),
+    "jupyter-tutorial": ("https://jupyter-tutorial.readthedocs.io/en/latest/", None),
+    "python4datascience": ("https://python4data.science/en/latest/", None),
     "cusy-design": ("https://www.cusy.design/de/latest/", None),
     "bokeh": ("https://docs.bokeh.org/en/latest/", None),
     "pandas": ("https://pandas.pydata.org/pandas-docs/stable/", None),

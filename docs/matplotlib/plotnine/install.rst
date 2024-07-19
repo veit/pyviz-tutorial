@@ -1,15 +1,15 @@
-plotnine-Installation
+plotnine installation
 =====================
 
-In den meisten Fällen sollte folgende Installation hinreichend sein:
+In most cases the following installation should be sufficient:
 
 .. code:: console
 
     $ pipenv install plotnine
 
-Für die Verwendung zusammen mit `scikit-learn <https://scikit-learn.org/>`_ und
-`scikit-misc <https://github.com/has2k1/scikit-misc>`_ können Extras installiert
-werden mit
+For use together with `scikit-learn <https://scikit-learn.org/>`_ and
+`scikit-misc <https://github.com/has2k1/scikit-misc>`_, extras can be installed
+with
 
 .. code:: console
 

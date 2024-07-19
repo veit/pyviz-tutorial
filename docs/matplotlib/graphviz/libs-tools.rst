@@ -1,67 +1,68 @@
-Graphviz-Bibliotheken und -Werkzeuge
-====================================
+Graphviz libraries and tools
+============================
 
-Python-Bibliotheken
--------------------
+Python libraries
+----------------
 
 `pydot <https://github.com/pydot/pydot>`_
-    Python-Schnittstelle zu Graphviz
+    Python interface to Graphviz
 `PyGraphviz <https://github.com/pygraphviz/pygraphviz>`_
-    Python-Schnittstelle zu Graphviz ähnlich wie :doc:`../networkx`
+    Python interface to Graphviz similar to :doc:`../networkx`
 `GvGen <https://github.com/stricaud/gvgen>`_
-    Python-Klasse zur Erzeugung von Dot-Dateien
+    Python class for generating dot files
 `pytm <https://github.com/izar/pytm/>`_
-    Framework für die Modellierung von Buffer Overflows, SQL Injections, CSRF
-    :abbr:`etc. (et cetera)`
+    Framework for modelling buffer overflows, SQL injections, CSRF :abbr:`etc.
+    (et cetera)`
 :doc:`../graph-tool`
-    Python-Modul zur Manipulation und statistischen Analyse von Graphen
+    Python module for manipulating and statistically analysing graphs
 
-Netzwerk-Tools
---------------
+Network tools
+-------------
 
 `dnsviz <https://github.com/dnsviz/dnsviz>`_
-    Tool-Suite zur Analyse und Visualisierung des :abbr:`DNS (Domain Name
+    Tool suite for analysing and visualising the :abbr:`DNS (Domain Systems)`,
+    including its security extensions (DNSSEC)
+    :abbr:`DNS (Domain Name
     Systems)`, einschließlich seiner Sicherheitserweiterungen (DNSSEC)
 `TraceViz <http://hokstad.com/traceviz-visualizing-traceroute-output-with-graphivz>`_
-    Visualisierung der Traceroute-Ausgabe mit Graphivz
+    Visualisation of the traceroute output with Graphivz
 `Safe Mapping and Reporting Tool (SMART) <https://sourceforge.net/projects/safemap/>`_
-    Passives Netzwerkfluss-Visualisierungstool für kleine bis mittelgroße
-    IP-Netzwerke mit Geräte- und Betriebssystem-Identifikation und Aufzählung
-    von Netzwerkdiensten.
+    Passive network flow visualisation tool for small to medium-sized IP networks
+    with device and operating system identification and enumeration of network
+    services.
 `dockviz <https://github.com/justone/dockviz/>`_
-    Visualisierung von Docker-Daten
+    Visualisation of Docker data
 `docker-compose-dot <https://github.com/digibib/docker-compose-dot>`_
-    erzeugt Graphviz-Dot-Dateien aus docker-compose :file:`yaml`-Dateien
+    generates Graphviz dot files from docker-compose :file:`yaml` files
 `Dotler <https://github.com/ronin13/dotler>`_
-    Web-Crawler und Graph-Generator
+    Web crawler and graph generator
 `sabaviz <https://github.com/tom--bo/sabaviz>`_
-    visualisiert Server-Verbindungen anhand der Netstat-Ausgabe
+    visualises server connections based on the Netstat output
 `Kafka Streams Topology Visualizer <https://github.com/zz85/kafka-streams-viz>`_
-    visualisiert Kafka-Streams-Topologien mithilfe von `Viz.js
-    <https://viz-js.com>`_ und `Rough.js
-    <https://github.com/rough-stuff/rough>`_
+    visualises Kafka Streams topologies using `Viz.js <https://viz-js.com>`_ and
+    `Rough.js <https://github.com/rough-stuff/rough>`_
 
-Konfigurationsmanagement
+Configuration management
 ------------------------
 
 `terraform graph <https://developer.hashicorp.com/terraform/cli/commands/graph>`_
-    überführt die Konfiguration in eine Dot-Datei
+    transfers the configuration into a dot file
 `Ansible Playbook Grapher <https://github.com/haidaraM/ansible-playbook-grapher>`_
-    Kommandozeilentool, um ein Diagramm aus Ansible-Playbooks zu erstellen
+    Command line tool to create a graph from Ansible playbooks
 `ansible-inventory-grapher <https://github.com/willthames/ansible-inventory-grapher>`_
-    erstellt Dot-Dateien aus Ansible-Inventories
+    creates dot files from Ansible inventories
 
 Profiler
 --------
 
 `pprof <https://github.com/google/pprof>`_
-    visualisiert und analysiert Profildaten
+    visualises and analyses profile data
 
-Build-Systeme
+Build systems
 -------------
 
 `CMake <https://cmake.org/cmake/help/latest/module/CMakeGraphVizOptions.html>`_
-    kann Dot-Dateien erzeugen, die die Abhängigkeiten in einem Projekt sowie zu
-    externen Bibliotheken, gegen die gelinkt wird, anzeigen
+    can generate dot files that display the dependencies in a project and to
+    external libraries that are linked to
 `makefile2graph <https://github.com/lindenb/makefile2graph>`_
-    erzeugt einen Abhängigkeitsgraphen aus GNU-Make-Dateien
+    generates a dependency graph from GNU make files

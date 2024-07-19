@@ -1,7 +1,7 @@
 yt
 ==
 
-`yt <https://yt-project.org/>`_ analysiert und visualisiert Volumendaten.
+`yt <https://yt-project.org/>`_ analyses and visualises volume data.
 
 Installation
 ------------
@@ -11,10 +11,10 @@ Installation
     $ pipenv install yt
 
 .. note::
-   Falls ihr pipenv noch nicht installiert hab, findet ihr eine Anleitung hierzu
-   unter :doc:`python4datascience:productive/envs/pipenv/install`.
+   If you have not yet installed pipenv, you can find instructions for this at
+   :doc:`python4datascience:productive/envs/pipenv/install`.
 
-Die Installation könnt ihr dann überprüfen mit:
+You can then check the installation with:
 
 .. code-block:: console
 
@@ -22,8 +22,8 @@ Die Installation könnt ihr dann überprüfen mit:
     usage: yt [-h] [--config CONFIG] [--paste] [--paste-detailed] [--detailed]
     …
 
-Beispiel
---------
+Example
+-------
 
 .. code-block:: pycon
 
@@ -40,14 +40,13 @@ Beispiel
     9985379895930.627 Mjup
 
 .. note::
-   In Version 3.3 von yt wurde ein experimenteller hardware-beschleunigter
-   interaktiver Volume-Renderer eingeführt. Um die `Interactive Data
+   An experimental hardware-accelerated interactive volume renderer was
+   introduced in version 3.3 of yt. In order to use `Interactive Data
    Visualization (IDV)
-   <https://yt-project.org/doc/visualizing/interactive_data_visualization.html>`_
-   verwenden zu können, müssen zusätzlich `PyOpenGL
-   <https://pypi.org/project/PyOpenGL/>`_ und `cyglfw3
-   <https://pypi.org/project/cyglfw3/>`_ mit ihren jeweiligen Abhängigkeiten
-   installiert werden.
+   <https://yt-project.org/doc/visualizing/interactive_data_visualization.html>`_,
+   `PyOpenGL <https://pypi.org/project/PyOpenGL/>`_ and `cyglfw3
+   <https://pypi.org/project/cyglfw3/>`_ with their respective dependencies must
+   also be installed.
 
 .. seealso::
    - `Quickstart <https://yt-project.org/doc/quickstart/index.html>`_

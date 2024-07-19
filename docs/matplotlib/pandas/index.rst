@@ -1,9 +1,9 @@
 pandas
 ======
 
-:ref:`pandas-Visualization <pandas:visualization>`
-baut auf :doc:`/matplotlib/index` auf, bietet jedoch eine einfachere API zum
-Plotten von pandas-Dataframes und -Series.
+:ref:`pandas-Visualization <pandas:visualization>` is based on
+:doc:`/matplotlib/index`, but offers a simpler API for plotting pandas data
+frames and series.
 
 .. seealso::
    - :doc:`pandas Plotting <pandas:reference/plotting>`

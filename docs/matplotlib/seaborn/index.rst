@@ -1,10 +1,10 @@
 seaborn
 =======
 
-Ähnlich wie :doc:`../pandas/index` basiert `seaborn
-<https://seaborn.pydata.org/>`_ auf :doc:`/matplotlib/index` und bietet ein
-High-Level-API für die Visualisierung statistischer Daten. Zudem bietet seaborn
-schöne Farbpaletten und Diagrammstile.
+Similar to :doc:`../pandas/index`, `seaborn <https://seaborn.pydata.org/>`_ is
+based on :doc:`/matplotlib/index` and offers a high-level API for the
+visualisation of statistical data. In addition, seaborn offers beautiful colour
+palettes and chart styles.
 
 .. seealso::
    - `Tutorial <https://seaborn.pydata.org/tutorial.html>`_

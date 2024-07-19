@@ -1,47 +1,45 @@
-Matplotlib-Installation
+Matplotlib installation
 =======================
 
-Mit :doc:`python4datascience:productive/envs/spack/index` könnt ihr Matplotlib
-in eurem Kernel bereitstellen, :abbr:`z.B. (zum Beispiel)` mit:
+With :doc:`python4datascience:productive/envs/spack/index` you can provide
+Matplotlib in your kernel, for example with:
 
 .. code-block:: console
 
     $ spack env activate python-311
     $ spack install py-matplotlib
 
-Alternativ könnt ihr Matplotlib auch mit anderen Paketmanagern installieren,
-:abbr:`z.B. (zum Beispiel)` mit :doc:`Pipenv
-<python4datascience:productive/envs/pipenv/index>`:
+Alternatively, you can also install Matplotlib with other package managers, for
+example with :doc:`Pipenv <python4datascience:productive/envs/pipenv/index>`:
 
 .. code-block:: console
 
     $ pipenv install matplotlib
 
-Die Installation könnt ihr dann überprüfen mit:
+You can then check the installation with:
 
 .. code-block:: pycon
 
     >>> import matplotlib.pyplot as plt
 
 .. note::
-    Wenn ihr den Fehler ``TclError: no display name and no $DISPLAY
-    environment variable`` erhaltet, müsst ihr vermutlich das iPython-Backend
-    für Matplotlib verwenden mit
+   If you get the error ``TclError: no display name and no $DISPLAY environment
+   variable``, you probably need to use the iPython backend for Matplotlib with
 
    .. code-block:: ipython
 
-       import matplotlib.pyplot as plt
+      import matplotlib.pyplot as plt
 
-       # iPython backend for matplotlib
-       %matplotlib inline
+      # iPython backend for matplotlib
+      %matplotlib inline
 
-    Sofern Ihr Matplotlib in einer Python-Datei importiert, müsst ihr
-    stattdessen folgendes einfügen:
+   If you import Matplotlib in a Python file, you must insert the following
+   instead:
 
-    .. code-block:: python
+   .. code-block:: python
 
-       import matplotlib.pyplot as plt
+      import matplotlib.pyplot as plt
 
 
-       # iPython backend for matplotlib
-       get_ipython().run_line_magic("matplotlib", "inline")
+      # iPython backend for matplotlib
+      get_ipython().run_line_magic("matplotlib", "inline")

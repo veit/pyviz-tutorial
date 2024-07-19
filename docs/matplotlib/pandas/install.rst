@@ -1,28 +1,27 @@
-pandas-Installation
+pandas installation
 ===================
 
-Mit :doc:`python4datascience:productive/envs/spack/index` könnt ihr pandas in
-eurem Kernel bereitstellen, :abbr:`z.B. (zum Beispiel)` mit:
+With :doc:`python4datascience:productive/envs/spack/index` you can provide pandas
+in your kernel, for example with:
 
 .. code-block:: console
 
     $ spack env activate python-311
     $ spack install py-pandas
 
-Alternativ könnt ihr pandas auch mit anderen Paketmanagern installieren,
-:abbr:`z.B. (zum Beispiel)` mit :doc:`Pipenv
-<python4datascience:productive/envs/pipenv/index>`.
+Alternatively, you can also install pandas with other package managers, for
+example with :doc:`Pipenv <python4datascience:productive/envs/pipenv/index>`.
 
 .. note::
-   Falls ihr pipenv noch nicht installiert habt, findet ihr eine Anleitung
-   hierzu unter :doc:`Pipenv-Installation
+   If you have not yet installed pipenv, you can find instructions on how to do
+   this in `Pipenv installation
    <python4datascience:productive/envs/pipenv/install>`.
 
 .. code-block:: console
 
     $ pipenv install pandas
 
-Die Installation könnt Ihr dann überprüfen mit:
+You can then check the installation with:
 
 .. code-block:: pycon
 

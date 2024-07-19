@@ -1,16 +1,16 @@
 Graphviz
 ========
 
-``Graph-`` und ``Digraph``-Objekte haben eine ``_repr_svg_()``-Methode, sodass
-sie direkt in einem Jupyter-Notebook gerendert und dargestellt werden können.
+``Graph-`` and ``Digraph`` objects have a ``_repr_svg_()`` method so that they
+can be rendered and displayed directly in a Jupyter notebook.
 
 Installation
 ------------
 
 .. tab:: Spack
 
-   Mit :doc:`python4datascience:productive/envs/spack/index` könnt ihr Graphviz
-   in eurem Kernel bereitstellen:
+   With :doc:`python4datascience:productive/envs/spack/index` you can provide
+   Graphviz in your kernel:
 
    .. code:: console
 
@@ -25,14 +25,13 @@ Installation
 
 .. tab:: Debian/Ubuntu
 
-   Zunächst wird Graphviz installiert mit:
+   First, Graphviz is installed with:
 
    .. code:: console
 
       $ sudo apt install graphviz
 
-   Anschließend könnt ihr dann in eurem Kernel das zugehörige Python-Paket
-   installieren:
+   You can then install the corresponding Python package in your kernel:
 
    .. code:: console
 
@@ -40,14 +39,13 @@ Installation
 
 .. tab:: macOS
 
-   Zunächst wird Graphviz mit `Homebrew <https://brew.sh/>`_ installiert:
+   First, Graphviz is installed with `Homebrew <https://brew.sh/>`_:
 
    .. code:: console
 
       $ brew install graphviz
 
-   Anschließend könnt ihr dann in eurem Kernel das zugehörige Python-Paket
-   installieren:
+   You can then install the corresponding Python package in your kernel:
 
    .. code:: console
 

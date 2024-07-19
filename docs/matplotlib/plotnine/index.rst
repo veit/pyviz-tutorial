@@ -1,34 +1,33 @@
 plotnine
 ========
 
-`plotnine <https://plotnine.readthedocs.io/en/stable/>`_ implementiert `The
-Grammar of Graphics <https://link.springer.com/book/10.1007/0-387-28695-0>`_ in
-Python basierend auf `ggplot2 <https://ggplot2.tidyverse.org/>`_. Die Grammatik
-erlaubt die einfache Beschreibung auch von komplexen Grafiken.
+`plotnine <https://plotnine.readthedocs.io/en/stable/>`_ implements `The Grammar
+of Graphics <https://link.springer.com/book/10.1007/0-387-28695-0>`_  Python
+based on `ggplot2 <https://ggplot2.tidyverse.org/>`_. The grammar allows the
+simple description of even complex graphics.
 
 .. seealso::
 
    `plotnine documentation <https://plotnine.readthedocs.io/en/stable/>`_
-        API-Referenz, Gallerie, Tutorials etc.
+        API reference, gallery, tutorials :abbr:`etc (et cetera)`.
    `ggplot2 documentation <https://ggplot2.tidyverse.org/reference/index.html>`_
-        plotnine verwendet eine ähnliche API und Pipeline wie ggplt2
+        plotnine uses a similar API and pipeline as ggplt2.
    `Grammer of graphics with plotnine <https://www.kaggle.com/code/residentmario/grammar-of-graphics-with-plotnine-optional?scriptVersionId=4327772>`_
-        Gutes Tutorial zur Einführung in plotnine als Teil eines
-        `Datenvisualisierung-Track <https://www.kaggle.com/learn/data-visualization>`_ von kaggle.
+        Good tutorial introducing plotnine as part of a `data visualisation
+        track <https://www.kaggle.com/learn/data-visualization>`_ by kaggle.
    `Paul Teehan: Plotnine is the best Python implementation of R’s ggplot2 <https://web.archive.org/web/20181012022314/http://pltn.ca/plotnine-superior-python-ggplot/>`_
-        Vergleich zwischen plotnine und ggplot2, :abbr:`v.a. (vor allem)` in
-        Bezug auf die API-Kompatibilität.
+        Comparison between plotnine and ggplot2, especially in terms of API
+        compatibility.
    `Python Plotting for Exploratory Analysis <https://pythonplot.com/>`_
-        Eine Liste von Plots für die explorative Datenanalyse und wie sie mit
-        verschiedenen Bibliotheken erstellt werden können.
+        A list of plots for exploratory data analysis and how they can be created
+        with different libraries.
    `Introduction to Plotnine <https://web.archive.org/web/20200926231003/http://www.mbel.io/2019/08/06/introduction-to-plotnine-ggplot-port-in-python/>`_
-        Erläutert die Hauptaspekte von plotnine und zeigt, wie die Bibliothek
-        verwendet werden kann.
+        Explains the main aspects of plotnine and shows how the library can be
+        used.
    `Making Plots With plotnine <https://web.archive.org/web/20230325132920/https://datacarpentry.org/python-ecology-lesson/07-visualization-ggplot-python/index.html>`_
-        Eine Einführung in `The Grammar of Graphics
-        <https://link.springer.com/book/10.1007/0-387-28695-0>`__ und die
-        Verwendung von plotnine. Dies ist Teil des Kurses von Data Carpentry
-        `Data Analysis and Visualization in Python for Ecologists
+        An introduction to `The Grammar of Graphics
+        <https://link.springer.com/book/10.1007/0-387-28695-0>`__ and the use of plotnine. This is part of the Data Carpentry course `Data Analysis and
+        Visualization in Python for Ecologists
         <https://web.archive.org/web/20230325132920/https://datacarpentry.org/python-ecology-lesson/07-visualization-ggplot-python/index.html>`_.
 
 .. toctree::

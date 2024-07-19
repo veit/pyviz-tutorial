@@ -1,5 +1,5 @@
-Schnelleinstieg
-===============
+Quick Start
+===========
 
 .. image:: https://img.shields.io/github/contributors/veit/pyviz-tutorial.svg
    :alt: Contributors
@@ -20,7 +20,7 @@ Schnelleinstieg
 Installation
 ------------
 
-#. Herunterladen und Auspacken:
+#. Download and unpack:
 
    .. code-block:: console
 
@@ -31,21 +31,21 @@ Installation
        creating: pyviz-tutorial-main/
     …
 
-#. Pandoc installieren:
+#. Install Pandoc:
 
-   * für Ubuntu und Debian:
+   * for Ubuntu and Debian:
 
      .. code-block:: console
 
         $ sudo apt install pandoc
 
-   * für Mac OSX:
+   * for macOS:
 
      .. code-block:: console
 
         $ brew install pandoc
 
-#. Python-Pakete installieren:
+#. Install Python packages:
 
    .. code-block:: console
 
@@ -54,23 +54,23 @@ Installation
     $ bin/python -m pip install  --upgrade pip setuptools
     $ bin/python -m pip install -r requirements.txt
 
-#. HTML-Dokumentation erstellen:
+#. Create HTML documentation:
 
    .. code-block:: console
 
     $ bin/sphinx-build -b html docs/ docs/_build/
 
-#. PDF erstellen:
+#. Create PDF:
 
-   Für die Erstellung von PDFs benötigt ihr weitere Pakete.
+   You will need additional packages to create PDFs.
 
-   Für Debian/Ubuntu erhaltet ihr diese mit:
+   For Debian/Ubuntu you can get these with:
 
    .. code-block:: console
 
     $ apt-get install texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended latexmk
 
-   oder für Mac OS X mit:
+   or for macOS with::
 
    .. code-block:: console
 
@@ -83,7 +83,7 @@ Installation
     mktexlsr: Updating /usr/local/texlive/2020/texmf-dist/ls-R...
     mktexlsr: Done.
 
-   Anschließend könnt ihr ein PDF generieren mit:
+   You can then generate a PDF with:
 
    .. code-block:: console
 
@@ -94,13 +94,13 @@ Installation
     Run 'make' in that directory to run these through (pdf)latex
     …
 
-   Das PDF findet ihr anschließend in ``docs/_build/latex/pyviz-tutorial.pdf``.
+   You will then find the PDF in ``docs/_build/latex/pyviz-tutorial.pdf``.
 
-Folge uns
+Follow us
 ---------
 
 * `GitHub <https://github.com/veit/pyviz-tutorial>`_
-* `Twitter <https://twitter.com/PyvizTutorial>`_
+* `Mastodon <https://mastodon.social/@PyViz>`_
 * `Mastodon <https://mastodon.social/@PyViz>`_
 
 Pull-Requests
