@@ -101,14 +101,12 @@ Follow us
 
 * `GitHub <https://github.com/veit/pyviz-tutorial>`_
 * `Mastodon <https://mastodon.social/@PyViz>`_
-* `Mastodon <https://mastodon.social/@PyViz>`_
 
 Pull-Requests
 -------------
 
-Wenn ihr Vorschläge für Verbesserungen und Ergänzungen habt, empfehle ich euch,
-einen `Fork <https://github.com/veit/pyviz-tutorial/fork>`_ meines
-`GitHub-Repository <https://github.com/veit/pyviz-tutorial/>`_ zu erstellen
-und darin eure Änderungen vorzunehmen. Gerne dürft ihr auch einen *Pull Request*
-stellen. Sofern die darin enthaltenen Änderungen klein und atomar sind, schaue
-ich mir eure Vorschläge gerne an.
+If you have suggestions for improvements and additions, I recommend that you
+create a `fork <https://github.com/veit/pyviz-tutorial/fork>`_ of my `GitHub
+repository <https://github.com/veit/pyviz-tutorial/>`_ and make your changes
+there. You are also welcome to submit a pull request. As long as the changes are
+small and atomic, I will be happy to look at your suggestions.

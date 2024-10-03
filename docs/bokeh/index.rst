@@ -1,22 +1,20 @@
 Bokeh
 =====
 
-`Bokeh <https://docs.bokeh.org/en/latest/>`_ ist eine interaktive
-Visualisierungsbibliothek für moderne Webbrowser. Ihr Ziel ist es, vielseitige
-Grafiken bereitzustellen und diese Fähigkeit durch performante Interaktivität
-auf sehr große und Streaming-Datasets zu erweitern. Bokeh ist hilfreich um
-schnell und einfach interaktive Diagramme, Dashboards und Datenanwendungen zu
-erstellen.
+`Bokeh <https://docs.bokeh.org/en/latest/>`_ is an interactive visualisation
+library for modern web browsers. Its goal is to provide versatile graphics and
+extend this capability to very large and streaming datasets through
+high-performance interactivity. Bokeh is useful for quickly and easily creating
+interactive charts, dashboards and data applications.
 
-Um sowohl einfache als auch leistungsstarke und flexible Funktionen zu bieten,
-die für erweiterbare Anpassungen erforderlich sind, stellt Bokeh zwei
-Interfaces zur Verfügung:
+To provide both simple and powerful and flexible features required for
+extensible customisation, Bokeh provides two interfaces:
 
 :ref:`bokeh.models <bokeh:bokeh.models>`
-    Low-Level-Interface, das Anwendungsentwicklern die größtmögliche
-    Flexibilität bietet
+    Low-level interface that offers application developers the greatest possible
+    flexibility
 :ref:`bokeh.plotting <bokeh:bokeh.models_plots>`
-    High-Level-Interface für die Erstellung visueller Glyphen
+    High-level interface for the creation of visual glyphs
 
 .. seealso::
    * :doc:`Home <bokeh:index>`
@@ -34,53 +32,50 @@ Interfaces zur Verfügung:
 Installation
 ------------
 
-Mit :doc:`python4datascience:productive/envs/spack/index` könnt ihr Bokeh in
-eurem Kernel bereitstellen, :abbr:`z.B. (zum Beispiel)` mit:
+With :doc:`python4datascience:productive/envs/spack/index` you can deploy
+Bokeh in your kernel, for example with:
 
 .. code-block:: console
 
     $ spack env activate python-311
     $ spack install   py-bokeh
 
-Alternativ könnt ihr Bokeh auch mit anderen Paketmanagern installieren,
-:abbr:`z.B. (zum Beispiel)`
+Alternatively, you can also install Bokeh with other package managers, for
+example
 
 .. code-block:: console
 
     $ pipenv install bokeh
 
-Optionale Erweiterungen
-~~~~~~~~~~~~~~~~~~~~~~~
+Optional extensions
+~~~~~~~~~~~~~~~~~~~
 
-Es gibt Erweiterungen für Bokeh für die folgenden Funktionen:
+There are extensions for Bokeh for the following functions:
 
 `NodeJS <https://nodejs.org/en/>`_
-    Notwendig zum Erweitern von Bokeh oder zum Definieren von
-    ``CustomJS``-Implementierungen in CoffeeScript oder TypeScript
+    Necessary to extend Bokeh or to define ``CustomJS`` implementations in
+    CoffeeScript or TypeScript
 `pandas <https://pandas.pydata.org/>`_
-    Notwendig für die Hexbin-Funktion. Einige Anwendungen werden durch die
-    Verwendung von pandas vereinfacht, :abbr:`z.B. (zum Beispiel)` werden pandas
-    DataFrames durch Glyph-Funktionen automatisch in Bokeh-Datenquellen
-    konvertiert
+    Necessary for the Hexbin function. Some applications are simplified by using
+    pandas, for example pandas DataFrames are automatically converted to Bokeh
+    data sources by Glyph functions
 `Psutil <https://psutil.readthedocs.io/en/latest/>`_
-    Erforderlich, um eine detaillierte Speicherprotokollierung im Bokeh-Server
-    zu ermöglichen
+    Required to enable detailed memory logging in the Bokeh server
 `NetworkX <https://networkx.org>`_
-    Mit ``from_networkx`` lässt sich der Bokeh-Diagramm-Renderer direkt auf
-    NetworkX-Daten anwenden
+    With ``from_networkx``, the bokeh diagram renderer can be applied directly
+    to NetworkX data
 `Selenium <https://www.selenium.dev/>`_, `PhantomJS <https://phantomjs.org/>`_
-    Notwendig für das Exportieren von Plots in PNG- und SVG-Bilder
+    Necessary for exporting plots to PNG and SVG images
 
-Beispiele
----------
+Examples
+--------
 
-Bei der Installation mit ``pip`` werden die Beispiele nicht mitinstalliert.
-Ihr könnt jedoch das Git-Repository klonen und euch das Verzeichnis
-``examples/`` anschauen um die Beispiele zu sehen.
+When installing with ``pip``, the examples are not installed. However, you can
+clone the Git repository and look at the examples/ directory to see the
+``examples``.
 
-Die meisten dieser Beispiele nutzen Beispieldaten, die ebenfalls separat zur
-Verfügung gestellt werden müssen. Um diese Dateien herunterzuladen, gebt
-einfach folgendes ein::
+Most of these examples use sample data, which must also be provided separately.
+To download these files, simply enter the following:
 
     $ pipenv run bokeh sampledata
 

@@ -1,16 +1,16 @@
 hvPlot
 ======
 
-Viele Bibliotheken wie :doc:`/matplotlib/pandas/index`, `xarray
+Many libraries such as :doc:`/matplotlib/pandas/index`, `xarray
 <https://docs.xarray.dev/en/stable/>`_, `Dask
 <https://docs.dask.org/en/stable/>`_, `Streamz
-<https://streamz.readthedocs.io/en/latest/>`_ und
-:doc:`python4datascience:data-processing/intake/index` haben eine
-High-Level-Plot-API, die meist auf :doc:`/matplotlib/index` beruht. Sie bieten
-jedoch nicht die Vorteile moderner Web-APIs, wie :doc:`/bokeh/index` und
-`HoloViews <https://holoviews.org>`_. `hvPlot <https://hvplot.holoviz.org/>`_
-ist eine auf HoloViews basierende High-Level-Plot-API, die eine allgemeine und
-konsistente API zum Plotten von allen oben genannten Formaten bietet.
+<https://streamz.readthedocs.io/en/latest/>`_ and
+:doc:`python4datascience:data-processing/intake/index` have a high-level plot
+API, mostly based on  :doc:`/matplotlib/index`. However, they do not offer the
+advantages of modern web APIs, such as  :doc:`/bokeh/index` and `HoloViews
+<https://holoviews.org>`_. `hvPlot <https://hvplot.holoviz.org/>`_
+hvPlot is a high-level plot API based on HoloViews, which offers a general and
+consistent API for plotting all the formats mentioned above.
 
 .. seealso::
 

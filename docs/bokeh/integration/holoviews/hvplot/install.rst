@@ -1,7 +1,7 @@
-hvPlot-Installation
+hvPlot installation
 ===================
 
-hvPlot kann installiert werden mit
+hvPlot can be installed with
 
 .. code-block:: console
 

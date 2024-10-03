@@ -1,23 +1,23 @@
 OpenGL
 ======
 
-Die Open Graphics Library `OpenGL <https://www.opengl.org/>`_ ist eine
-API-Spezifikation für 2D- und 3D-Grafikanwendungen. Neben `Vaex
-<https://github.com/vaexio/vaex>`_ stehen noch weitere Python-Bibliotheken zur
-Verfügung, die OpenGL nutzen:
+The Open Graphics Library `OpenGL <https://www.opengl.org/>`_ is an API
+specification for 2D and 3D graphics applications. In addition to `Vaex
+<https://github.com/vaexio/vaex>`_, there are other Python libraries available
+that use OpenGL:
 
 `Vispy <https://vispy.org>`_
-    Python-Bibliothek für interaktive wissenschaftliche Visualisierungen
+    Python library for interactive scientific visualisations
 `Mayavi <http://docs.enthought.com/mayavi/mayavi/>`_
-    Python-Bibliothek für die 3D-Visualisierung wissenschaftlicher Daten
+    Python library for 3D visualisation of scientific data
 `itkwidgets <https://itkwidgets.readthedocs.io/en/latest/>`_
-    Jupyter-Widgets zur Visualisierung von Bildern, Punktmengen und Netzen in 2D und 3D
+    Jupyter widgets for visualising images, point sets and meshes in 2D and 3D
 `vedo <https://vedo.embl.es>`_
-    Python-Modul für die wissenschaftliche Analyse von 3D-Daten
+    Python module for the scientific analysis of 3D data
 `Polyscope <https://polyscope.run>`_
-    Ein C++ und Python-Viewer für 3D-Daten wie Netze und Punktwolken
+    A C++ and Python viewer for 3D data such as meshes and point clouds
 `Glumpy <https://glumpy.github.io/>`_
-    Schnittstelle zwischen NumPy und OpenGL
+    Interface between NumPy and OpenGL
 
 .. seealso::
 

@@ -1,9 +1,9 @@
-Bokeh-Integration
+Bokeh integration
 =================
 
-Bokeh spielt auch mit anderen Visualisierungsbibliotheken wie `Vaex
-<https://github.com/vaexio/vaex>`_, `HoloViews <https://holoviews.org>`_
-oder `Datashader <datashader.ipynb>`_ zusammen.
+Bokeh also interacts with other visualisation libraries such as `Vaex
+<https://github.com/vaexio/vaex>`_, `HoloViews <https://holoviews.org>`_ or
+`Datashader <datashader.ipynb>`_.
 
 .. toctree::
     :titlesonly:

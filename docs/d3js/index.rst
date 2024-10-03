@@ -1,9 +1,8 @@
 D3.js
 =====
 
-`d3js <https://d3js.org/>`_ ist eine Javascript-Bibliothek zur
-Datenvisualisierung, die :abbr:`u.a. (unter anderem)` von den folgenden
-Python-Bibliotheken genutzt wird:
+`d3js <https://d3js.org/>`_ is a Javascript library for data visualisation that
+is used by the following Python libraries, among others:
 
 .. toctree::
     :titlesonly:

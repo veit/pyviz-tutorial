@@ -12,7 +12,7 @@ description of even complex graphics.
         API reference, gallery, tutorials :abbr:`etc (et cetera)`.
    `ggplot2 documentation <https://ggplot2.tidyverse.org/reference/index.html>`_
         plotnine uses a similar API and pipeline as ggplt2.
-   `Grammer of graphics with plotnine <https://www.kaggle.com/code/residentmario/grammar-of-graphics-with-plotnine-optional?scriptVersionId=4327772>`_
+   `Grammar of graphics with plotnine <https://www.kaggle.com/code/residentmario/grammar-of-graphics-with-plotnine-optional?scriptVersionId=4327772>`_
         Good tutorial introducing plotnine as part of a `data visualisation
         track <https://www.kaggle.com/learn/data-visualization>`_ by kaggle.
    `Paul Teehan: Plotnine is the best Python implementation of R’s ggplot2 <https://web.archive.org/web/20181012022314/http://pltn.ca/plotnine-superior-python-ggplot/>`_

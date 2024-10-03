@@ -1,8 +1,8 @@
 Javascript
 ==========
 
-Javascript wird von den folgenden Python-Bibliotheken direkt verwendet, also
-ohne :abbr:`z.B. (zum Beispiel)` :doc:`../d3js/index` zu nutzen:
+Javascript is used directly by the following Python libraries, without using
+:doc:`../d3js/index`, for example:
 
 .. toctree::
     :titlesonly:

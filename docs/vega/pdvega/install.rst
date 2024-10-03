@@ -1,7 +1,7 @@
-PdVega-Installation
+PdVega installation
 ===================
 
-PdVega kann installiert werden mit
+PdVega can be installed with
 
 .. code-block:: console
 
@@ -23,9 +23,9 @@ PdVega kann installiert werden mit
    * `Installing and Using pdvega
      <https://altair-viz.github.io/pdvega/installation.html#installation>`_
 
-Abhängigkeiten
---------------
+Dependencies
+------------
 
-Um Plots als PNG oder SVG speichern zu können, müssen die
-Kommandozeilenwerkzeuge ``vl2png`` und ``vl2svg`` aus dem `vega-lite
-<https://github.com/vega/vega-lite>`_-npm-Paket vorhanden sein.
+To be able to save plots as PNG or SVG, the command line tools ``vl2png`` and
+``vl2svg`` from the `vega-lite <https://github.com/vega/vega-lite>`_-npm package
+must be available.

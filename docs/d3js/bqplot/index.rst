@@ -1,10 +1,9 @@
 bqplot
 ======
 
+2-D plot library for Jupyter notebooks
 
-2-D Plot-Bibliothek für Jupyter-Notebooks
-
-`bqplot <https://bqplot.readthedocs.io/en/latest/>`_ basiert auf `The Grammar of
+`bqplot <https://bqplot.readthedocs.io/en/latest/>`_ is based on `The Grammar of
 Graphics (Statistics and Computing)
 <https://link.springer.com/book/10.1007/0-387-28695-0>`_.
 
@@ -14,22 +13,21 @@ Graphics (Statistics and Computing)
    * `GitHub <https://github.com/bqplot/bqplot>`_
    * `Gallery <https://bqplot.github.io/bqplot-gallery/>`_
 
-Ziele
+Goals
 -----
 
-Einheitliches Framework für 2D-Visualisierungen
-   mit einer Pythonic-API
-Erweiterbare API
-   erlaubt das Hinzufügen von User Interactions (Verschieben, Zoomen, Auswahl
-   :abbr:`usw. (und so weiter)`)
-Benutzerdefinierte API
-    Benutzer können eigene Visualisierungen mithilfe des internen Objektmodells
-    erstellen, das von The Grammar of Graphics inspiriert ist (figure, marks,
-    axes, scales) inspiriert ist und deren Visualisierungen interaktiv
-    erschlossen werden können
-Kontextbasierte API
-   ähnlich wie Matplotlibs ``pyplot`` werden sinnvolle Auswahlmöglichkeiten für
-   die meisten Parameter geboten
+Unified framework for 2D visualisations
+    with a Pythonic API
+Extensible API
+    allows the addition of user interactions (panning, zooming, selection,
+    :abbr:`etc. (et cetera)`)
+Customised API
+    Users can create their own visualisations using the internal object model
+    inspired by The Grammar of Graphics (figure, marks, axes, scales) and their
+    visualisations can be explored interactively
+Context-based API
+    similar to Matplotlib’s ``pyplot``, meaningful choices are provided for most
+    parameters
 
 .. toctree::
     :titlesonly:

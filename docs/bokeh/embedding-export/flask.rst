@@ -1,10 +1,10 @@
-Bokeh-Plots in Flask einbinden
-==============================
+Integrating bokeh plots into Flask
+==================================
 
-Exemplarisch betten wir Bokeh-Plots in das `Flask
-<https://flask.palletsprojects.com/en/2.3.x/>`_-Framework ein.
+As an example, we embed bokeh plots in the `Flask
+<https://flask.palletsprojects.com/en/2.3.x/>`_ framework.
 
-#. Erstellen der virtuellen Umgebung:
+#. Creating the virtual environment:
 
    .. code-block:: sh
 
@@ -12,10 +12,10 @@ Exemplarisch betten wir Bokeh-Plots in das `Flask
     $ cd !$
     $ pipenv install flask bokeh pandas
 
-#. Einbinden von Bokeh-Plots in Flask:
+#. Embedding bokeh plots in Flask:
 
-   #. Dabei wird zunächst in der Datei :file:`flask_embed.py` eine Methode für
-      ein Bokeh-Dokument erstellt:
+   #. A method for a bokeh document is first created in the
+      :file:`flask_embed.py` file:
 
       .. code-block:: python
 
@@ -55,17 +55,16 @@ Exemplarisch betten wir Bokeh-Plots in das `Flask
 
              doc.theme = Theme(filename="theme.yaml")
 
-   #. Mit ``bokeh.sampledata.sea_surface_temperature`` werden Beispieldaten
-       verwendet, die aufgrund ihrer Größe nicht im Bokeh-Paket enthalten sind. Nach
-       der Installation von Bokeh können diese jedoch mit folgendem Befehl
-       heruntergeladen werden:
+   #. With ``bokeh.sampledata.sea_surface_temperature``, samples are used that
+      are not included in the Bokeh package due to their size. However, after
+      installing Bokeh, these can be downloaded with the following command:
 
        .. code-block:: sh
 
           $ pipenv run bokeh sampledata
 
-   #. Anschließend erstellen wir folgende :file:`theme.yaml`-Datei für die
-      Gestaltung von ``Figure`` und ``Grid``:
+   #. We then create the following :file:`theme.yaml` file for the design of the
+      ``Figure`` and ``Grid``:
 
       .. code-block:: yaml
 
@@ -80,8 +79,8 @@ Exemplarisch betten wir Bokeh-Plots in das `Flask
                  grid_line_dash: [6, 4]
                  grid_line_color: white
 
-   #. Nun fügen wir in :file:`flask_embed.py` eine Route von der Bokeh-App zum
-      Flask-Server-Konfigurationsobjekt hinzu:
+   #. Now we add a route from the Bokeh app to the Flask server configuration
+      object in :file:`flask_embed.py`:
 
       .. code-block:: python
 
@@ -97,9 +96,9 @@ Exemplarisch betten wir Bokeh-Plots in das `Flask
              script = server_document("http://localhost:5006/bkapp")
              return render_template("embed.html", script=script, framework="Flask")
 
-   #. ``script`` und ``framework`` werden anschließend in ein
-      `Jinja2 <https://jinja.palletsprojects.com/en/3.1.x/>`_-Template :file:`templates/embed.html`
-      eingebunden, das den Plot anzeigen soll:
+   #. ``script`` and ``framework`` are then integrated into a `Jinja2
+      <https://jinja.palletsprojects.com/en/3.1.x/>`_ template
+      :file:`templates/embed.html`, which is to display the plot:
 
       .. code-block:: html
 
@@ -122,7 +121,7 @@ Exemplarisch betten wir Bokeh-Plots in das `Flask
          </body>
          </html>
 
-   #. Nun wird ein Bokeh-Worker in :file:`flask_embed.py` definiert:
+   #. A bokeh worker is now defined in :file:`flask_embed.py`:
 
       .. code-block:: python
 
@@ -143,7 +142,7 @@ Exemplarisch betten wir Bokeh-Plots in das `Flask
              server.io_loop.start()
 
 
-   #. Schließlich wird noch die Flask-App definiert:
+   #. Finally, the Flask app is defined:
 
       .. code-block:: python
 
@@ -160,21 +159,21 @@ Exemplarisch betten wir Bokeh-Plots in das `Flask
              print('See "flask_gunicorn_embed.py" for one way to run multi-process')
              app.run(port=8000)
 
-#. Falls der Bokeh-Service noch nicht über WebSocket mit Flask
-   kommunizieren kann, sollte dies explizit erlaubt werden mit:
+#. If the Bokeh service cannot yet communicate with Flask via WebSocket, this
+   should be explicitly permitted with:
 
    .. code-block:: sh
 
     $ export BOKEH_ALLOW_WS_ORIGIN=127.0.0.1:5000
 
-#. Schließlich kann Flask gestartet werden mit:
+#. Finally, Flask can be started with:
 
    .. code-block:: sh
 
     $ export FLASK_APP=flask_embed.py
     $ pipenv run flask run
 
-   oder, falls mehrere Bokeh-Worker gestartet werden sollen:
+   or, if several bokeh workers are to be started:
 
    .. code-block:: sh
 
