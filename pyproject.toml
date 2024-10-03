@@ -32,6 +32,7 @@ dev = [
     "pyviz-tutorial[docs]",
     "pre-commit",
     "codespell",
+    "vale",
 ]
 
 [project.urls]
