@@ -31,6 +31,7 @@ docs = [
 dev = [
     "pyviz-tutorial[docs]",
     "pre-commit",
+    "codespell",
 ]
 
 [project.urls]
@@ -39,3 +40,7 @@ dev = [
 
 [tool.setuptools]
 packages = []
+
+
+[tool.codespell]
+skip = "*.ipynb, ./docs/_build/*"
