@@ -50,15 +50,15 @@ Installation
    .. code-block:: console
 
     $ cd pyviz-tutorial
-    $ python3 -m venv .
-    $ bin/python -m pip install  --upgrade pip setuptools
-    $ bin/python -m pip install -r requirements.txt
+    $ python3 -m venv .venv
+    $ . .venv/bin/activate
+    $ python -m pip install -e ".[dev]"
 
 #. Create HTML documentation:
 
    .. code-block:: console
 
-    $ bin/sphinx-build -b html docs/ docs/_build/
+    $ python -m sphinx -b html docs/ docs/_build/html/
 
 #. Create PDF:
 
