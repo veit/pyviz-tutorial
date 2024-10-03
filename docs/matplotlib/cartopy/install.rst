@@ -19,7 +19,7 @@ Cartopy installation
 
    The following packages are also installed:
 
-   * `gdal <https://gdal.org/>`_
+   * `gdal <https://gdal.org/en/latest/>`_
    * :doc:`/matplotlib/index`
    * `OWSLib <https://geopython.github.io/OWSLib/>`_
    * `Pillow <https://pillow.readthedocs.io/en/stable/>`_

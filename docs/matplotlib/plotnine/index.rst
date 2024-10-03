@@ -1,14 +1,14 @@
 plotnine
 ========
 
-`plotnine <https://plotnine.readthedocs.io/en/stable/>`_ implements `The Grammar
-of Graphics <https://link.springer.com/book/10.1007/0-387-28695-0>`_  Python
-based on `ggplot2 <https://ggplot2.tidyverse.org/>`_. The grammar allows the
-simple description of even complex graphics.
+`plotnine <https://plotnine.org>`_ implements `The Grammar of Graphics
+<https://link.springer.com/book/10.1007/0-387-28695-0>`_  Python based on
+`ggplot2 <https://ggplot2.tidyverse.org/>`_. The grammar allows the simple
+description of even complex graphics.
 
 .. seealso::
 
-   `plotnine documentation <https://plotnine.readthedocs.io/en/stable/>`_
+   `plotnine documentation <https://plotnine.org>`_
         API reference, gallery, tutorials :abbr:`etc (et cetera)`.
    `ggplot2 documentation <https://ggplot2.tidyverse.org/reference/index.html>`_
         plotnine uses a similar API and pipeline as ggplt2.

@@ -10,7 +10,7 @@ Python libraries
     Python interface to Graphviz similar to :doc:`../networkx`
 `GvGen <https://github.com/stricaud/gvgen>`_
     Python class for generating dot files
-`pytm <https://github.com/izar/pytm/>`_
+`pytm <https://github.com/OWASP/pytm>`_
     Framework for modelling buffer overflows, SQL injections, CSRF :abbr:`etc.
     (et cetera)`
 :doc:`../graph-tool`
