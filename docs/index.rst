@@ -132,3 +132,4 @@ All tutorials serve as seminar documents for our harmonised training courses:
     opengl/index
     d3js/index
     js/index
+    protomaps/index
