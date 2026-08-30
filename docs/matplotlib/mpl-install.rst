@@ -10,11 +10,11 @@ Matplotlib in your kernel, for example with:
     $ spack install py-matplotlib
 
 Alternatively, you can also install Matplotlib with other package managers, for
-example with :doc:`Pipenv <python4datascience:productive/envs/pipenv/index>`:
+example with :doc:`uv <python4datascience:productive/envs/uv/index>`:
 
 .. code-block:: console
 
-    $ pipenv install matplotlib
+    $ uv add matplotlib
 
 You can then check the installation with:
 
@@ -39,7 +39,6 @@ You can then check the installation with:
    .. code-block:: python
 
       import matplotlib.pyplot as plt
-
 
       # iPython backend for matplotlib
       get_ipython().run_line_magic("matplotlib", "inline")

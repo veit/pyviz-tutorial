@@ -138,8 +138,9 @@ nbsphinx_allow_errors = True
 
 intersphinx_mapping = {
     "jupyter-tutorial": ("https://jupyter-tutorial.readthedocs.io/en/latest/", None),
+    "python-basics": ("https://python-basics-tutorial.readthedocs.io/en/latest/", None),
     "python4datascience": ("https://python4data.science/en/latest/", None),
-    "cusy-design": ("https://www.cusy.design/de/latest/", None),
+    "cusy-design": ("https://www.cusy.design/", None),
     "bokeh": ("https://docs.bokeh.org/en/latest", None),
     "pandas": ("https://pandas.pydata.org/pandas-docs/stable/", None),
 }

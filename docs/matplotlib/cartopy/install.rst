@@ -51,14 +51,14 @@ Cartopy can then be installed for your kernel, for example with:
 .. code-block:: console
 
     $ export PIP_NO_BINARY=:shapely:
-    $ pipenv install cython numpy cartopy
+    $ uv add cython numpy cartopy
 
 For the Cartopy :doc:`examples`, you will also need the following two Python
 packages:
 
 .. code-block:: console
 
-    $ pipenv install matplotlib scipy
+    $ uv add matplotlib scipy
 
 Optional requirements
 ---------------------

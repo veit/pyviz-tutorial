@@ -45,7 +45,7 @@ example
 
 .. code-block:: console
 
-    $ pipenv install bokeh
+    $ uv add bokeh
 
 Optional extensions
 ~~~~~~~~~~~~~~~~~~~
@@ -77,7 +77,7 @@ clone the Git repository and look at the examples/ directory to see the
 Most of these examples use sample data, which must also be provided separately.
 To download these files, simply enter the following:
 
-    $ pipenv run bokeh sampledata
+    $ uv run bokeh sampledata
 
 .. toctree::
     :titlesonly:

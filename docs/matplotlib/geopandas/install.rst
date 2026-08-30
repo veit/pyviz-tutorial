@@ -10,16 +10,15 @@ GeoPandas in your kernel, for example with:
     $ spack install py-geopandas
 
 Alternatively, you can also install GeoPandas with other package managers, for
-example with :doc:`python4datascience:productive/envs/pipenv/index`:
+example with :doc:`python4datascience:productive/envs/uv/index`:
 
 .. code-block:: console
 
-    $ pipenv install fiona matplotlib descartes geopandas
+    $ uv add fiona matplotlib descartes geopandas
 
 .. note::
-   If you have not yet installed pipenv, you can find instructions on how to do
-   this in :doc:`Pipenv installation
-   <python4datascience:productive/envs/pipenv/install>`.
+   If you have not yet installed uv, you can find instructions on how to do this
+   in :ref:`uv installation <python-basics:uv>`.
 
 You can then check the installation with:
 

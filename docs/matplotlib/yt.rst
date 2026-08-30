@@ -8,11 +8,11 @@ Installation
 
 .. code-block:: console
 
-    $ pipenv install yt
+    $ uv add yt
 
 .. note::
-   If you have not yet installed pipenv, you can find instructions for this at
-   :doc:`python4datascience:productive/envs/pipenv/install`.
+   If you have not yet installed uv, you can find instructions for this at
+   :ref:`python-basics:uv`.
 
 You can then check the installation with:
 

@@ -10,16 +10,15 @@ in your kernel, for example with:
     $ spack install py-pandas
 
 Alternatively, you can also install pandas with other package managers, for
-example with :doc:`Pipenv <python4datascience:productive/envs/pipenv/index>`.
+example with :doc:`uv <python4datascience:productive/envs/uv/index>`.
 
 .. note::
-   If you have not yet installed pipenv, you can find instructions on how to do
-   this in `Pipenv installation
-   <python4datascience:productive/envs/pipenv/install>`.
+   If you have not yet installed uv, you can find instructions on how to do this
+   in `uv installation <python-basics:uv>`.
 
 .. code-block:: console
 
-    $ pipenv install pandas
+    $ uv add pandas
 
 You can then check the installation with:
 

@@ -35,7 +35,7 @@ Installation
 
    .. code:: console
 
-      $ pipenv install graphviz
+      $ uv add graphviz
 
 .. tab:: macOS
 
@@ -49,7 +49,7 @@ Installation
 
    .. code:: console
 
-      $ pipenv install graphviz
+      $ uv add graphviz
 
 .. toctree::
     :titlesonly:

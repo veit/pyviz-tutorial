@@ -10,7 +10,7 @@ As an example, we embed bokeh plots in the `Flask
 
     $ mkdir embed
     $ cd !$
-    $ pipenv install flask bokeh pandas
+    $ uv add flask bokeh pandas
 
 #. Embedding bokeh plots in Flask:
 
@@ -61,7 +61,7 @@ As an example, we embed bokeh plots in the `Flask
 
        .. code-block:: sh
 
-          $ pipenv run bokeh sampledata
+          $ uv run bokeh sampledata
 
    #. We then create the following :file:`theme.yaml` file for the design of the
       ``Figure`` and ``Grid``:
@@ -86,7 +86,6 @@ As an example, we embed bokeh plots in the `Flask
 
          from bokeh.embed import server_document
          from flask import render_template
-
 
          ...
 
@@ -127,7 +126,6 @@ As an example, we embed bokeh plots in the `Flask
 
          from flask import Flask
          from tornado.ioloop import IOLoop
-
 
          ...
 
@@ -171,14 +169,14 @@ As an example, we embed bokeh plots in the `Flask
    .. code-block:: sh
 
     $ export FLASK_APP=flask_embed.py
-    $ pipenv run flask run
+    $ uv run flask run
 
    or, if several bokeh workers are to be started:
 
    .. code-block:: sh
 
     $ export FLASK_APP=flask_gunicorn_embed.py
-    $ pipenv run flask run
+    $ uv run flask run
 
 .. seealso::
 
